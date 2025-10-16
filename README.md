@@ -26,8 +26,9 @@ Se han realizado las siguientes taras:
 
 5. Interfaz de usuario
 - UI básica: HUD, Puntuación
-- UI GameOver. Pulsa X para reiniciar. 
+- UI GameOver. 
+- UI MainMenu
 - Retrasar acción con Corutinas
-- UI Inicio
+
 
 6. Compilar

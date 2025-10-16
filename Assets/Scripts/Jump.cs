@@ -52,7 +52,9 @@ public class Jump : MonoBehaviour
     private bool IsGrounded()
     {
         RaycastHit hit;
-        
+
+
+
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(puntoSuelo.transform.position, Vector3.down, out hit, groundDistance, groundMask))
 
@@ -63,7 +65,7 @@ public class Jump : MonoBehaviour
         }
         else
         {
-            Debug.DrawRay(puntoSuelo.transform.position, Vector3.down * groundDistance, Color.white,1f);
+            Debug.DrawRay(puntoSuelo.transform.position, Vector3.down * groundDistance, Color.blue,1f);
             Debug.Log("Did not Hit");
             return false;
         }
